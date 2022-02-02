@@ -91,6 +91,7 @@ Un [readme.md](https://www.ionos.fr/digitalguide/sites-internet/developpement-we
 Une roadmap est une sorte de ligne de conduite qui définira les prochaines étapes de votre projet.
 
 #### 3.2.3 Whitepaper
+Un whitepaper est un papier apportant des informations décrivant le processus de votre projet de manière précise et concise. C'est un readme amélioré qui va inspecter les moindres détails techniques du code. Il est souvent écrit en [latex](https://www.latex-project.org/). 
 
 #### 3.2.4 Yellowpaper
 
