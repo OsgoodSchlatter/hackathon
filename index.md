@@ -9,7 +9,7 @@ Il est voué à servir de point de repère pour toute personne souhaitant se lan
 2. [Préliminaires](./#2-préliminaires)
 3. [Pendant le hackathon](./#3-pendant-le-hackathon)
 <!-- 4. [Après le hackathon]() -->
-5. [Historique des hackathons](./#4-anciens-hackathons)
+5. [Anciens hackathons](./#4-anciens-hackathons)
    
 ## 1. Introduction 
 
@@ -43,24 +43,24 @@ L'efficacité est clef dans un hackathon. Il est capital de mettre en place une 
 Cette étape est inévitable. Que vous soyez seul ou en groupe, vous devrez utiliser GitHub (ou GitLab). C'est un endroit ou vous pouvez partager votre code développé en local et le fusionner avec celui des autres sans bavure ni erreur. Si vous êtes seul, il vous sera quand même utile pour rendre votre projet en ligne. 
 Cette section est destinée à vous initier aux bonnes pratiques de git et GitHub. Attention déjà à bien les différencier. git est un logiciel de gestion de versions alors que GitLab (mais aussi GitLab par ex) est un service d'hébergement de code, s'appuyant sur Git.
 
-1. **Installer git**
-Sur Linux : `sudo apt install git-all`
-Sur MacOS : `brew install git`
+1. **Installer git**  
+Sur Linux : `sudo apt install git-all`  
+Sur MacOS : `brew install git`  
 Sur Windows : ..... 
 
-2. **Créer son compte GitHub**
+2. **Créer son compte GitHub**  
 Rendez vous sur [github.com](https://github.com/) et créer votre compte.
 
-3. **Créer une organisation et un dépot**
+3. **Créer une organisation et un dépot**  
 Une fois votre compte créé, allez sur votre profil et créez une organisation. Une organisation vous permet de collarborer facilement sur plusieurs repos, ce qui va être intéressant dans notre cas. Ajoutez les comptes GitHub de vos collègues. Vous pouvez maintenant créer un dépot pour commencer votre travail. Souvent on en crée un pour les smart-contracts, un pour le front etc... 
 
-4. **Le connecter à votre dépôt local**
+4. **Le connecter à votre dépôt local**  
 Créer un répertoire de travail en local `mkdir nom_du_depot` et dirigez-vous à l'intérieur. Vous pouvez ensuite faire `git init` puis `git remote add origin https://github.com/votre_organisation/votre_repo.git` pour lier votre dépot distant (sur GitHub) à votre dépôt local. Autrement, sans passer par les deux commandes précédentes, vous pouvez `git clone https://github.com/votre_organisation/votre_repo.git` dans un dossier et votre dépôt local se créera automatiquement. 
 
-5. **Faire son premier commit**
+5. **Faire son premier commit**  
 Ensuite, vous pouvez créer un fichier en local, votre premier code : `contract.sol` par ex. Vous y inscrivez quelques lignes de codes. Pour le mettre en ligne sur le repo, faîtes d'abord `git add contract.sol`. Vous pouvez en ajouter plusieurs de cette manière. Ce fichier est dit "indexé". Maintenant, vous pouvez réaliser votre premier commit, qui est l'empaquetage en quelque sorte de tous les fichiers que vous voulez pousser sur le repo GitHub. `git commit -m "message qui décrit votre commit"`. Puis vous poussez : `git push origin master`. Il y a bien sûr plein de cas de figures particuliers que l'on abordera au fur et à mesure, mais voici le "happy path" de la gestion de version avec git et GitHub. Pour récupérer les données sur le repo à distance, faîtes `git pull origin master`.  
 
-6. **Ressources pour continuer à s'entraîner sur git**
+6. **Ressources pour continuer à s'entraîner sur git**  
 - [git_ressource_1](https://www.labri.fr/perso/renault/working/teaching/projets/git.php)   
 - [learn_git](https://learngitbranching.js.org/?locale=fr_FR)
 
@@ -87,10 +87,10 @@ Voici quelques outils pour tester vos smart-contrats :
 - [Hardhat](https://hardhat.org) : tests en JS ou TS
 - [Foundry](https://github.com/gakonst/foundry) : tests en Solidity (très recommandé) (<3)
 
-### 3.2 Readme, Roadmap, Whitepaper & Yellowpaper
+### 3.2 Documentation
 
 #### 3.2.1 Readme
-Un ["readme"](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) est un document, traditionnellement écrit en langage [markdown](https://www.markdownguide.org/getting-started/), qui permet aux personnes inspectant votre projet de comprendre comment interagir avec. Typiquement il regroupe les commandes à entrer dans le terminal si besoin pour lancer votre projet par ex.
+Un ["readme"](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) est un document, traditionnellement écrit en langage [markdown](https://www.markdownguide.org/getting-started/), qui permet aux personnes inspectant votre projet de comprendre comment interagir avec. Typiquement il regroupe les commandes de bases pour les développeurs, le fonctionnement global ainsi que l'organisation générale du code.
 #### 3.2.2 Roadmap
 Une roadmap est une sorte de ligne de conduite qui définira les prochaines étapes de votre projet.
 
@@ -100,7 +100,7 @@ Un whitepaper est un papier apportant des informations décrivant le processus d
 #### 3.2.4 Yellowpaper
 
 
-## 4 Anciens hackathons
+## 4. Anciens hackathons
 
-- **Hashi** : [Mathis GD](https://github.com/MathisGD) et [Pierre-Antoine A](https://github.com/pierreia)
-- **Tezbet** : [Enguerrand D](https://github.com/Dichiara25), [Victor L](https://github.com/vlaforet), [Jean-François D](https://github.com/Paralogoss), [Eloi B](https://github.com/OsgoodSchlatter)
+- [**Hashi**](https://github.com/hashi-protocol) : [Mathis GD](https://github.com/MathisGD) et [Pierre-Antoine A](https://github.com/pierreia)
+- [**Tezbet**](https://github.com/TezBet) : [Enguerrand D](https://github.com/Dichiara25), [Victor L](https://github.com/vlaforet), [Jean-François D](https://github.com/Paralogoss), [Eloi B](https://github.com/OsgoodSchlatter)
